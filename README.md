@@ -19,10 +19,38 @@ The project focuses on clean design, usability, and responsive layout for real-w
 
 - HTML5  
 - Tailwind CSS
-- CSS3
+- CSS3 
 - JavaScript (Vanilla JS)
-  
 
 
-## 📂 Project Structure
+
+---
+
+## 🌐 Live Demo
+
+[View Live Project](https://fortunecodeit.github.io/socialRepeat-Auth-flow/)
+
+
+
+## 📌 Purpose of the Project
+
+This project was built to:
+- Practice building real-world authentication UI flows
+- Improve Tailwind CSS layout and styling skills
+- Demonstrate front-end development skills for portfolio and job applications
+
+
+## 👤 Author
+
+**FortuneCodeIT**  
+Front-End Web Developer  
+
+- GitHub: https://github.com/FortuneCodeIT
+
+
+## 📄 License
+
+This project is open-source and available for learning and educational purposes.
+
+
 
