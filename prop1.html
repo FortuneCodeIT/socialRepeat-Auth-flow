@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="h-screen w-screen overflow-hidden">
+
+<div class="flex h-full w-full">
+
+    <!-- LEFT SIDE -->
+    <div class="w-full md:w-1/2 h-full bg-white flex flex-col">
+
+        <!-- Top Left Logo -->
+        <div class="px-10 pt-10">
+            <h1 class="text-lg">
+                <span class="font-extrabold">Social</span>Repeat
+            </h1>
+        </div>
+
+        <!-- CENTERED FORM -->
+        <div class="flex flex-col justify-center items-center flex-1">
+            <div class="w-full max-w-sm">
+                <h2 class="text-lg mb-4">Sign in</h2>
+
+                <form class="space-y-4">
+                    <input
+                        type="text"
+                        placeholder="Email Address *"
+                        class="w-full border border-gray-300 p-2 rounded focus:ring-blue-500 focus:ring-1"
+                    >
+
+                    <input
+                        type="password"
+                        placeholder="Password *"
+                        class="w-full border border-gray-300 p-2 rounded focus:ring-blue-500 focus:ring-1"
+                    >
+
+                    <div class="flex justify-between items-center">
+                       
+
+                        <button class="bg-blue-700 text-white text-xs px-3 py-1 rounded hover:bg-blue-900 flex items-center gap-2">
+                            LOGIN
+                            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24">
+                                <path fill="#dadada" d="M4 11v2h12l-5.5 5.5l1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5L16 11z" />
+                            </svg>
+                        </button>
+
+                         <a href="reset-p.html" class="text-xs text-gray-500">Forgot your password?</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!-- TERMS (BOTTOM) -->
+        <div class="text-center text-xs text-gray-500 pb-4">
+            <a href="#" class="hover:underline">Terms and conditions</a> •
+            <a href="#" class="hover:underline">Privacy policy</a>
+        </div>
+
+    </div>
+
+    <!-- RIGHT SIDE -->
+    <div class="hidden md:flex w-1/2 h-full bg-gray-100 justify-center items-center">
+        <!-- Your image or design goes here -->
+    </div>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+     <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="w-screen h-screen flex  ">
+     <div class="w-full h-full md:w-2/3 bg-white flex flex-col overflow-hidden  ">
+
+
+      <div class="px-10 lg:px-20  pt-10">
+        <h1 class="text-lg">
+          <span class="font-extrabold ">Social</span>Repeat
+        </h1>
+      </div>
+
+      <div class=" flex flex-col flex-1 justify-center items-center  ">
+        <div class=" w-full max-w-sm px-10 md:px-10 ">
+              <h2 class="text-md mb-4">Sign in</h2>
+
+              <form class="space-y-5 ">
+                <div class="flex flex-row gap-5">
+                    <div>
+                        <label for="firstname"></label>
+                        <input type="text" placeholder="First name" class="w-full input-field ">
+                    </div>
+                    <div>
+                        <label for="lastname"></label>
+                        <input type="text" placeholder="Last name" class="w-full border border-gray-300 p-2 rounded focus:outline-none focus:ring-1 focus:ring-blue-500">
+                    </div>
+                </div>
+                <div class="relative password">
+                     <input type="text" class="w-full  input-field " id="email-address">
+                  <label for="email-address" class=" absolute px-1 left-2 text-gray-400 bg-white px-1 -translate-y-1/2   text-xs pointer-events-none" >Email Address</label>
+                </div> 
+
+                <div class="relative c-password">
+                     <input type="text" class="w-full  input-field " id="company">
+                  <label for="company" class=" absolute px-1 left-2 text-gray-400 bg-white px-1 -translate-y-1/2   text-xs pointer-events-none" >Company name</label>
+                </div> 
+
+                <div class="flex flex-row gap-5 ">
+                    <div >
+                       <div class="relative">
+                     <input type="text" class="w-full  input-field " id="country">
+                  <label for="country" class=" absolute px-1 left-2 text-gray-400 bg-white px-1 -translate-y-1/2   text-xs pointer-events-none" >Country</label>
+
+                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="absolute w-5 h5 text-gray-500 right-2 top-1/2 -translate-y-1/2 pointer-events-none ">
+                    <path fill="#3e3e3e" d="m11.565 13.873l-2.677-2.677q-.055-.055-.093-.129q-.037-.073-.037-.157q0-.168.11-.289q.112-.121.294-.121h5.677q.181 0 .292.124t.111.288q0 .042-.13.284l-2.677 2.677q-.093.093-.2.143t-.235.05t-.235-.05t-.2-.143"/></svg>
+                  
+                </div> 
+                       
+                    </div>
+                     <div class="relative">
+                     <input type="text" class="w-full input-field " id="phone">
+                  <label for="phone" class=" absolute px-1 left-2 text-gray-400 bg-white px-1 -translate-y-1/2   text-xs pointer-events-none" >Phone #</label>
+                </div> 
+                </div>
+
+         
+                  <div class="relative">
+                    
+                     <input type="text" class="w-full  input-field " id="timezone">
+                  <label for="timezone" class=" absolute px-1 left-2 text-gray-400 bg-white px-1 -translate-y-1/2   text-xs pointer-events-none" >Default timezone</label>
+
+                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="absolute w-5 h5 text-gray-500 right-2 top-1/2 -translate-y-1/2 pointer-events-none ">
+                    <path fill="#3e3e3e" d="m11.565 13.873l-2.677-2.677q-.055-.055-.093-.129q-.037-.073-.037-.157q0-.168.11-.289q.112-.121.294-.121h5.677q.181 0 .292.124t.111.288q0 .042-.13.284l-2.677 2.677q-.093.093-.2.143t-.235.05t-.235-.05t-.2-.143"/></svg>
+                  </div>
+    
+        </form>
+        
+         <div class="my-5">
+            <a href="confirm.html">
+                <button class="w-full btn-sign-up">
+                    SIGN UP
+                </button>
+            </a>
+            </div>
+
+             <div>
+            <a href="index.html">
+                <button class="w-full btn-login">
+                    BACK TO LOGIN
+                </button>
+            </a>
+            </div>
+        
+      </div>
+        </div>
+
+         <<div class=" flex gap-3 justify-center text-xs text-gray-500 pb-20 md:pb-4">
+            <a href="#" class="hover:underline">Terms and conditions</a> • 
+            <a href="#" class="hover:underline">Privacy policy</a>
+          </div>
+      </div>
+
+      <div class="hidden md:w-3/4 h-full flex-1  md:flex justify-end items-end  bg-blue-700 p-5 ">
+        <div class="flex max-w-md">
+            <h1 class=" text-5 text-gray-400 "> <span class="font-extrabold text-white">Social</span>Repeat</h1>
+        </div>
+        
+       
+    </div>
+
+   
+     
+</body>
+</html>
